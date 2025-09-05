@@ -49,11 +49,14 @@ for node, (x, y) in positions.items():
         color = "red"
     elif node in path:
         color = "orange"
-    ax.scatter(x, y, s=500, color=color)
-    ax.text(x, y, node, fontsize=9, ha="center", va="center", color='black')
+    ax.scatter(x, y, s=100, color=color)
+    ax.text(x, y, node, fontsize=5, ha="center", va="center", color='black')
 
 ax.axis("off")
 st.pyplot(fig)
+
+fig.savefig("result_path.png", dpi=150, bbox_inches="tight")
+
 
 if path:
     st.markdown(f"### 📌 Lộ trình: {' ➡️ '.join(path)}")
