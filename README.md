@@ -13,18 +13,6 @@ Hệ thống tìm đường tối ưu và gợi ý tour tham quan tại công vi
 
 ---
 
-## 🗂️ Cấu trúc thư mục
-dam_sen_pathfinder/
-│
-├── data.py # Chứa dữ liệu bản đồ: node, cạnh, vị trí
-├── utils.py # Các hàm vẽ bản đồ, tìm đường,...
-├── ai_suggester.py # Thuật toán gợi ý tour Greedy TSP
-├── streamlit_app.py # Giao diện người dùng Streamlit
-├── dam_sen_map.png # Bản đồ công viên nền
-├── requirements.txt # Danh sách thư viện cần cài đặt
-
----
-
 ## 🚀 Hướng dẫn chạy ứng dụng
 
 ### 1. Cài Python
